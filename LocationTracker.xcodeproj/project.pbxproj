@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		84F9A34E2D7B3D8600DDA750 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9A34D2D7B3D8600DDA750 /* AppDelegate.swift */; };
 		84F9A3502D7B3D8600DDA750 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9A34F2D7B3D8600DDA750 /* SceneDelegate.swift */; };
-		84F9A3522D7B3D8600DDA750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9A3512D7B3D8600DDA750 /* ViewController.swift */; };
+		84F9A3522D7B3D8600DDA750 /* LocationTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9A3512D7B3D8600DDA750 /* LocationTrackingViewController.swift */; };
 		84F9A3552D7B3D8600DDA750 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 84F9A3542D7B3D8600DDA750 /* Base */; };
 		84F9A3572D7B3D8700DDA750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F9A3562D7B3D8700DDA750 /* Assets.xcassets */; };
 		84F9A35A2D7B3D8700DDA750 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 84F9A3592D7B3D8700DDA750 /* Base */; };
 		84F9A3652D7B3D8700DDA750 /* LocationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9A3642D7B3D8700DDA750 /* LocationTrackerTests.swift */; };
 		84F9A36F2D7B3D8700DDA750 /* LocationTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9A36E2D7B3D8700DDA750 /* LocationTrackerUITests.swift */; };
 		84F9A3712D7B3D8700DDA750 /* LocationTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9A3702D7B3D8700DDA750 /* LocationTrackerUITestsLaunchTests.swift */; };
+		84FB1B762D7B4EFA005974D1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84FB1B752D7B4EFA005974D1 /* SnapKit */; };
+		84FB1B792D7B51A3005974D1 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 84FB1B782D7B51A3005974D1 /* RxCocoa */; };
+		84FB1B7B2D7B51A3005974D1 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 84FB1B7A2D7B51A3005974D1 /* RxRelay */; };
+		84FB1B7D2D7B51A3005974D1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84FB1B7C2D7B51A3005974D1 /* RxSwift */; };
+		84FB1B7F2D7C5433005974D1 /* LocationTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1B7E2D7C5433005974D1 /* LocationTrackingViewModel.swift */; };
+		84FB1B812D7C5440005974D1 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1B802D7C5440005974D1 /* LocationModel.swift */; };
+		84FB1B832D7C5455005974D1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1B822D7C5455005974D1 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,7 @@
 		84F9A34A2D7B3D8600DDA750 /* LocationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F9A34D2D7B3D8600DDA750 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F9A34F2D7B3D8600DDA750 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84F9A3512D7B3D8600DDA750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F9A3512D7B3D8600DDA750 /* LocationTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackingViewController.swift; sourceTree = "<group>"; };
 		84F9A3542D7B3D8600DDA750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F9A3562D7B3D8700DDA750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F9A3592D7B3D8700DDA750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		84F9A36A2D7B3D8700DDA750 /* LocationTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F9A36E2D7B3D8700DDA750 /* LocationTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerUITests.swift; sourceTree = "<group>"; };
 		84F9A3702D7B3D8700DDA750 /* LocationTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84FB1B7E2D7C5433005974D1 /* LocationTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackingViewModel.swift; sourceTree = "<group>"; };
+		84FB1B802D7C5440005974D1 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		84FB1B822D7C5455005974D1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FB1B7B2D7B51A3005974D1 /* RxRelay in Frameworks */,
+				84FB1B792D7B51A3005974D1 /* RxCocoa in Frameworks */,
+				84FB1B7D2D7B51A3005974D1 /* RxSwift in Frameworks */,
+				84FB1B762D7B4EFA005974D1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +115,10 @@
 			children = (
 				84F9A34D2D7B3D8600DDA750 /* AppDelegate.swift */,
 				84F9A34F2D7B3D8600DDA750 /* SceneDelegate.swift */,
-				84F9A3512D7B3D8600DDA750 /* ViewController.swift */,
+				84F9A3512D7B3D8600DDA750 /* LocationTrackingViewController.swift */,
+				84FB1B7E2D7C5433005974D1 /* LocationTrackingViewModel.swift */,
+				84FB1B802D7C5440005974D1 /* LocationModel.swift */,
+				84FB1B822D7C5455005974D1 /* LocationManager.swift */,
 				84F9A3532D7B3D8600DDA750 /* Main.storyboard */,
 				84F9A3562D7B3D8700DDA750 /* Assets.xcassets */,
 				84F9A3582D7B3D8700DDA750 /* LaunchScreen.storyboard */,
@@ -143,6 +160,12 @@
 			dependencies = (
 			);
 			name = LocationTracker;
+			packageProductDependencies = (
+				84FB1B752D7B4EFA005974D1 /* SnapKit */,
+				84FB1B782D7B51A3005974D1 /* RxCocoa */,
+				84FB1B7A2D7B51A3005974D1 /* RxRelay */,
+				84FB1B7C2D7B51A3005974D1 /* RxSwift */,
+			);
 			productName = LocationTracker;
 			productReference = 84F9A34A2D7B3D8600DDA750 /* LocationTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +238,10 @@
 				Base,
 			);
 			mainGroup = 84F9A3412D7B3D8600DDA750;
+			packageReferences = (
+				84FB1B742D7B4EFA005974D1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				84FB1B772D7B51A3005974D1 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 84F9A34B2D7B3D8600DDA750 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F9A3522D7B3D8600DDA750 /* ViewController.swift in Sources */,
+				84F9A3522D7B3D8600DDA750 /* LocationTrackingViewController.swift in Sources */,
 				84F9A34E2D7B3D8600DDA750 /* AppDelegate.swift in Sources */,
+				84FB1B832D7C5455005974D1 /* LocationManager.swift in Sources */,
+				84FB1B7F2D7C5433005974D1 /* LocationTrackingViewModel.swift in Sources */,
+				84FB1B812D7C5440005974D1 /* LocationModel.swift in Sources */,
 				84F9A3502D7B3D8600DDA750 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +406,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -431,6 +462,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -607,6 +639,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84FB1B742D7B4EFA005974D1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		84FB1B772D7B51A3005974D1 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84FB1B752D7B4EFA005974D1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84FB1B742D7B4EFA005974D1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		84FB1B782D7B51A3005974D1 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84FB1B772D7B51A3005974D1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		84FB1B7A2D7B51A3005974D1 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84FB1B772D7B51A3005974D1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		84FB1B7C2D7B51A3005974D1 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84FB1B772D7B51A3005974D1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 84F9A3422D7B3D8600DDA750 /* Project object */;
 }
