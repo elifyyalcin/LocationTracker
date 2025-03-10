@@ -8,11 +8,10 @@
 	<string>Arka planda konum izlemek için gereklidir.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Uygulama arka planda çalışırken konumunuzu izlemek için gereklidir.</string>
-    <key>UIBackgroundModes</key>
-    <array>
-        <string>location</string>
-    </array>
-
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

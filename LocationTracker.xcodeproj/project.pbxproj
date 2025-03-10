@@ -23,6 +23,7 @@
 		84FB1B7F2D7C5433005974D1 /* LocationTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1B7E2D7C5433005974D1 /* LocationTrackingViewModel.swift */; };
 		84FB1B812D7C5440005974D1 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1B802D7C5440005974D1 /* LocationModel.swift */; };
 		84FB1B832D7C5455005974D1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1B822D7C5455005974D1 /* LocationManager.swift */; };
+		84FB1B852D7EF1BE005974D1 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1B842D7EF1BE005974D1 /* LaunchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		84FB1B7E2D7C5433005974D1 /* LocationTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackingViewModel.swift; sourceTree = "<group>"; };
 		84FB1B802D7C5440005974D1 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		84FB1B822D7C5455005974D1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		84FB1B842D7EF1BE005974D1 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				84FB1B7E2D7C5433005974D1 /* LocationTrackingViewModel.swift */,
 				84FB1B802D7C5440005974D1 /* LocationModel.swift */,
 				84FB1B822D7C5455005974D1 /* LocationManager.swift */,
+				84FB1B842D7EF1BE005974D1 /* LaunchScreenViewController.swift */,
 				84F9A3532D7B3D8600DDA750 /* Main.storyboard */,
 				84F9A3562D7B3D8700DDA750 /* Assets.xcassets */,
 				84F9A3582D7B3D8700DDA750 /* LaunchScreen.storyboard */,
@@ -291,6 +294,7 @@
 				84FB1B7F2D7C5433005974D1 /* LocationTrackingViewModel.swift in Sources */,
 				84FB1B812D7C5440005974D1 /* LocationModel.swift in Sources */,
 				84F9A3502D7B3D8600DDA750 /* SceneDelegate.swift in Sources */,
+				84FB1B852D7EF1BE005974D1 /* LaunchScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
