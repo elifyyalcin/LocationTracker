@@ -24,9 +24,9 @@ Kullanıcı her **100 metre** yürüdüğünde haritaya otomatik olarak bir mark
 
 ![IMG_6666](https://github.com/user-attachments/assets/69f57f65-9bb6-42a8-ae80-9a2ac79c02da)
 
-![IMG_6668](https://github.com/user-attachments/assets/5b2aac48-21cb-4094-b7a1-b93191768f33)
-
 ![IMG_6667](https://github.com/user-attachments/assets/3661a1da-f3b9-4882-ad07-b372e29e88ec)
+
+![IMG_6668](https://github.com/user-attachments/assets/5b2aac48-21cb-4094-b7a1-b93191768f33)
 
 ![IMG_6655](https://github.com/user-attachments/assets/e34f45a0-94b9-495d-a033-33314b533836)
 
