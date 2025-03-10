@@ -37,7 +37,7 @@ Kullanıcı her **100 metre** yürüdüğünde haritaya otomatik olarak bir mark
 
 🧪 Uygulama Test Senaryoları
 
-**Konum Takibini Başlatma**
+**1.Konum Takibini Başlatma**
 Test Adımları:
 
 Uygulama açılır.
@@ -53,7 +53,7 @@ Kullanıcıdan konum izni alınmalı ve izin verdiğinde konum takibi başlamal�
 
 ✅ PASSED
 
-**1.Konum Takibini Durdurma**
+**2.Konum Takibini Durdurma**
 Test Adımları:
 
 "Start Tracking" butonuna basılarak konum takibi başlatılır.
@@ -66,7 +66,7 @@ Start Tracking butonu tekrar tıklanırsa kaldığı yerden devam etmelidir.
 
 ✅ PASSED
 
-**2.Haritada Marker Eklenmesi**
+**3.Haritada Marker Eklenmesi**
 Test Adımları:
 
 "Start Tracking" butonuna basılır.
@@ -81,7 +81,7 @@ Marker konumları doğru olmalıdır.
 
 ✅ PASSED
 
-**3.Haritanın Resetlenmesi**
+**4.Haritanın Resetlenmesi**
 Test Adımları:
 
 "Start Tracking" butonuna basılır.
@@ -95,7 +95,7 @@ Eğer kullanıcı hala takip modundaysa yeni konumlar eklenmeye devam etmelidir.
 
 ✅ PASSED
 
-**4.Uygulamanın Arka Planda Çalışması**
+**5.Uygulamanın Arka Planda Çalışması**
 Test Adımları:
 
 "Start Tracking" butonuna basılır.
@@ -110,7 +110,7 @@ Uygulama kapatılıp açıldığında en son konum verisi kaydedilmiş olmalıd�
 
 ✅ PASSED
 
-**5.Adres Bilgisi Gösterimi**
+**6.Adres Bilgisi Gösterimi**
 Test Adımları:
 
 Kullanıcı haritada bir marker'a tıklar.
