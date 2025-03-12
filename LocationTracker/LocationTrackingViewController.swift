@@ -92,10 +92,10 @@ class LocationTrackingViewController: UIViewController {
     private func updateMap(with locations: [LocationModel]) {
         print("Harita Güncelleniyor: \(locations.count) marker var.")
         
-        locations.forEach { location in
+        if let lastLocation = locations.last {
             let annotation = MKPointAnnotation()
-            annotation.coordinate = location.coordinate
-            mapView.addAnnotation(annotation)
+            annotation.coordinate = lastLocation.coordinate
+            mapView.addAnnotation(annotation) //only new marker
         }
         
         if let lastLocation = locations.last {
